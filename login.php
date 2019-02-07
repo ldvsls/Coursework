@@ -1,4 +1,5 @@
 <?php
+require('sql.php')
 $errorMsg = "";
 $validUser = $_SESSION["login"] === true;
 if (isset($_POST["sublogin"])) {
